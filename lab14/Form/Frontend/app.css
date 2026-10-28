@@ -1,0 +1,78 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 35px 15px;
+}
+
+.form-card,
+.saved-card {
+  width: 100%;
+  max-width: 430px;
+  background: white;
+  padding: 28px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px #00000012;
+}
+
+h1,
+h2 {
+  color: #15803d;
+}
+
+label {
+  display: block;
+  margin: 16px 0 7px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline: 2px solid #86efac;
+}
+
+button {
+  width: 100%;
+  margin-top: 22px;
+  padding: 13px;
+  border: none;
+  border-radius: 7px;
+  background: #15803d;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #166534;
+}
+
+.student {
+  margin-top: 15px;
+  padding: 15px;
+  background: #f0fdf4;
+  border-left: 4px solid #15803d;
+  border-radius: 7px;
+  overflow-wrap: anywhere;
+}

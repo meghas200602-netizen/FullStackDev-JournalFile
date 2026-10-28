@@ -1,0 +1,4 @@
+Hey it was hard but I made it ..Nd the feeling of getting successfull id a next level fun
+npm start
+nvm dev start
+node app.js

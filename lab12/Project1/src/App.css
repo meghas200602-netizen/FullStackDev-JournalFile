@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main page */
+
+.college-header {
+  text-align: center;
+  padding: 30px;
+  min-height: 100vh;
+  transition: 0.3s;
+}
+
+/* Light Theme */
+
+.college-header.light {
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+.college-header.light h1 {
+  color: #00a6c7;
+}
+
+/* Dark Theme */
+
+.college-header.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.college-header.dark h1 {
+  color: #00bcd4;
+}
+
+.college-header h1 {
+  margin-bottom: 35px;
+}
+
+/* Theme Button */
+
+.theme-button {
+  padding: 10px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.college-header.light .theme-button {
+  background-color: #222;
+  color: white;
+}
+
+.college-header.dark .theme-button {
+  background-color: white;
+  color: #222;
+}
+
+.theme-button:hover {
+  opacity: 0.8;
+}
+
+/* Student cards */
+
+.students-container {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.student-details {
+  width: 280px;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  transition: 0.3s;
+}
+
+/* Light student card */
+
+.student-details.light {
+  background-color: white;
+  color: #222;
+  border: 1px solid #ddd;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Dark student card */
+
+.student-details.dark {
+  background-color: #1e1e1e;
+  color: white;
+  border: 1px solid #333;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.student-details h2 {
+  color: #00bcd4;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.student-details p {
+  font-size: 16px;
+  margin: 12px 0;
+}
+
+.student-details.light p {
+  color: #444;
+}
+
+.student-details.dark p {
+  color: #dddddd;
+}
+
+.student-details.light strong {
+  color: #222;
+}
+
+.student-details.dark strong {
+  color: #ffffff;
+}
+
+/* Buttons below student records */
+
+.count-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+.count-container button {
+  width: 150px;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background-color: #00bcd4;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.count-container button:hover {
+  background-color: #0097a7;
+}
+
+.count-container button:active {
+  transform: scale(0.97);
+}

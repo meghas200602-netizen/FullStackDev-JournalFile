@@ -1,0 +1,26 @@
+
+
+.card{
+  margin-bottom: 22px;
+  border: 2px solid black;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  border-radius: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+ flex-direction: column;
+}
+
+li{
+  list-style: none;
+}
+
+ul{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
